@@ -1,0 +1,224 @@
+/* Styling for WorkoutPage */
+
+.workout-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .workout-page h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .workout-list {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; */
+    margin-bottom: 50px;
+  }
+  
+  /* Styling for WorkoutCard */
+  .workout-card-container{
+    display: flex;
+    margin: 5rem;
+    justify-content: center;
+  }
+  
+  .workout-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .workout-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .workout-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .workout-card img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .workout-card p {
+    margin-bottom: 10px;
+  }
+  
+  .workout-card button {
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .workout-card button:hover {
+    background-color: #006666;
+  }
+  
+  /* Styling for WorkoutDetails */
+  
+  .workout-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .workout-details h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .workout-details img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .workout-details p {
+    margin-bottom: 20px;
+  }
+  
+  .workout-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .workout-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .workout-details li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .workout-details button {
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .workout-details button:hover {
+    background-color: #006666;
+  }
+  .workout-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .workout-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .hgymgenie{
+    color: transparent;
+    text-align: center;
+    font-weight: 700;
+
+    font-size: 2.805rem;
+    line-height: 2.25rem;
+
+  
+    background-clip: text;
+
+    --tw-gradient-to: #9333ea;
+/* 
+    --tw-gradient-to: rgba(59,130,246,0); */
+    --tw-gradient-stops: var(--tw-gradient-from),#3b82f6,var(--tw-gradient-to);
+
+    --tw-gradient-from: #86efac;
+    /* --tw-gradient-to: rgba(134,239,172,0);
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to); */
+
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+
+    margin-right: 1rem;
+
+    margin-left: 1.25rem;
+
+    font-family: inherit;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #3e8e41;
+  }
+  
